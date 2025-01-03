@@ -5,7 +5,5 @@ public class firsthundred {
             System.out.println(i);
         }
 
-
-        
     }
 }
