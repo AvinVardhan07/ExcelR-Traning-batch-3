@@ -8,9 +8,9 @@ public class NextMultipleOf100 {
         System.out.println("Enter any number:");
         int number = scanner.nextInt();
 
-        int nextMultipleOf100 = ((number / 100) + 1) * 100;  //it rounds up the next upcoming mutiple of 100 according to the number which is entered.
+        int nextMultipleOf100 = ((number / 100) + 1) * 100;  //It rounds up the next upcoming mutiple of 100 according to the number which is entered.
 
-        if (number % 100 == 0) {
+        if (number % 100 == 0) { 
             nextMultipleOf100 = number;
         }
 
