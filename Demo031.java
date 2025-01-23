@@ -1,40 +1,30 @@
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Scanner;
+
+
+import java.util.*;
+
+class HashSetDemo1 {
+	void HSetMethod() {
+		HashSet<Object> hashSet = new HashSet<>();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an integer, a string and a double: ");
+        int a = sc.nextInt();
+        String b = sc.next();
+        double c = sc.nextDouble();
+		hashSet.add(a);
+		hashSet.add(b);
+		hashSet.add(c);
+		System.out.println(hashSet);		
+
+		for(Object x: hashSet) {
+			System.out.println(x);
+		}
+	}
+}
+
 
 public class Demo031 {
-
-    private HashSet<Object> hSet = new HashSet<>();
-    private Scanner scanner = new Scanner(System.in);
-
-
-
-    private void collectData() {
-        System.out.print("Enter a name: ");
-        String name = scanner.nextLine();
-        hSet.add(name);
-
-        System.out.print("Enter an age: ");
-        int age = scanner.nextInt();
-        hSet.add(age);
-    }
-
-    private void displayData() {
-        Iterator<Object> iterator = hSet.iterator();
-        
-        System.out.println("List of data:");
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
-        System.out.println("final HashSet: " + hSet);
-    }
-
-    //main method
-    public static void main(String[] args) {
-        Demo031 demo = new Demo031();
-        demo.collectData();
-        demo.displayData();
-    
-    }
-
+	public static void main(String[] args) {
+		HashSetDemo1 obj = new HashSetDemo1();
+		obj.HSetMethod();
+	}
 }

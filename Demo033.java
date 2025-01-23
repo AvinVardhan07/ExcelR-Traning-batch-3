@@ -1,49 +1,38 @@
+package Core_Java;
 
-import java.util.LinkedHashSet;
 import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
+class LinkedHashSetDemo{
+    void linkedHashsetMethod(){
+        LinkedHashSet <Integer>lhs = new LinkedHashSet<>();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 5 integers: ");
+        for(int i=0; i<5; i++){
+            int x = sc.nextInt();
+            lhs.add(x);
+        }
+        System.out.println(lhs);
+        System.out.print("Enter an integer to remove: ");
+        int a = sc.nextInt();
+        lhs.remove(a);
 
+
+		int sum=0;
+		for(Integer x : lhs) {
+			sum += x;
+		}
+
+		System.out.println("The sum is :" + sum);
+
+		Iterator it = lhs.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+}
 public class Demo033 {
-
- 
-    LinkedHashSet<Integer> hSet = new LinkedHashSet<>();
-
-  
-    private Scanner scanner = new Scanner(System.in);
-
-   
-    public void collectData() {
-        
-        for (int i = 1; i <= 5; i++) {
-            System.out.print("Enter marks for student " + i + ": ");
-            int marks = scanner.nextInt();
-            hSet.add(marks); 
-        }
-    }
-
-  
-    public void displayData() {
-        System.out.println("Marks entered:");
-        Iterator<Integer> iterator = hSet.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
-    }
-
-   
-    public void calculateTotal() {
-        int total = 0;
-        for (int mark : hSet) {
-            total += mark; 
-        }
-        System.out.println("\nTotal marks: " + total);
-    }
-
-    // Main method
     public static void main(String[] args) {
-        Demo033 demo = new Demo033();
-        demo.collectData(); 
-        demo.displayData();
-        demo.calculateTotal(); 
+        LinkedHashSetDemo obj = new LinkedHashSetDemo();
+        obj.linkedHashsetMethod();
     }
 }

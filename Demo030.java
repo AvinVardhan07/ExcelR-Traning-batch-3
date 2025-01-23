@@ -1,21 +1,24 @@
-import java.util.ArrayList;
-import java.util.Iterator;
 
-public class Demo030 {
-    public static void main(String[] args) {
-        ArrayList<String> friends = new ArrayList<>();
 
-        friends.add("Surya");
-        friends.add("Krishna");
-        friends.add("Revanth");
-        friends.add("Bhanu");
-        friends.add("Avin");
+import java.util.*;
 
-        Iterator<String> iterator = friends.iterator();
+public class Demo030{
 
-        System.out.println("List of Friends:");
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
-    }
+	public static void main(String[] args) {
+		 ArrayList<Integer> araylist1 = new ArrayList<>();	    
+	      araylist1.add(100);
+	      araylist1.add(200);
+	      araylist1.add(100);
+	      araylist1.add(0);
+	      araylist1.add(900);
+	      araylist1.add(600);
+	      System.out.println("Elements of the list: ");
+	      
+	      Iterator<Integer> iterate = araylist1.iterator();
+	    
+	      while (iterate.hasNext()) { 
+	         System.out.println(iterate.next()); 
+	      }
+	}
+
 }

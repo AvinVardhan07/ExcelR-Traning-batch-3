@@ -1,21 +1,28 @@
-import java.util.ArrayList;
 
-public class Demo029 {
-    public static void main(String[] args) {
-          ArrayList<String> list = new ArrayList<>();
+import java.util.*;
 
-
-          list.add("avin");
-          list.add("vardhan");
-          list.add("surya");
-          list.add("bharath");
-          list.add("bob");
-          list.add("cristopher");
-          list.add("jk");
-          list.add("danny");
-          list.add("swaroop");
-          list.add("john");
-         
-          System.err.println(list);
+class Demo029{
+    ArrayList<String> list = new ArrayList<String>();
+    void Add(String name){
+        list.add(name);
+    }
+    void input(){
+        Scanner sc = new Scanner(System.in);
+        for(int i=0; i<10; i++){
+            System.out.print("Enter the "+(i+1)+" person name: ");
+            String name = sc.next();
+            Add(name);
+        }
+    }
+    void display(){
+        for(String name: list){
+            System.out.println(name);
+        }
+    }
+    public static void main(String[] args){
+        Demo029 obj = new Demo029();
+        obj.input();
+        System.out.println("\nNames are: ");
+        obj.display();
     }
 }

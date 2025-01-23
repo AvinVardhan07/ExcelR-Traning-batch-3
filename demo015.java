@@ -1,16 +1,23 @@
-public class demo015 {
+
+
+import java.util.*;
+
+class Demo015{
+    void swapNumber(int a,int b){
+        System.out.println("Before Swapping:\na = "+ a+"\nb = "+b);
+        int temp = a;
+        a=b;
+        b=temp;
+        System.out.println("After Swapping:\na = "+ a+"\nb = "+b);
+    }
     public static void main(String[] args) {
-        int a = 10;
-        int b =20;
+        Scanner sc = new Scanner(System.in);
+        Demo015 obj = new Demo015();
 
+        System.out.println("Enter 2 numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        if(a>0 && b>0){
-            a = a+b;
-            b = a-b;
-            a = a-b;
-        }
-
-        System.out.println("variable a is: "+a);
-        System.out.println("variable b is: "+b);
+        obj.swapNumber(a, b);
     }
 }

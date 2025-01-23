@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class login{
+class Demo006{
     public static void main(String[] args) {
         boolean a = true;
         Scanner sc = new Scanner(System.in);
@@ -11,8 +11,8 @@ class login{
             String id = sc.next();
             System.out.print("Enter password: ");
             String pass = sc.next();
-            if((id.equals("user001")) && (pass.equals("user_001"))){
-                System.out.println("Happy new year");
+            if((id.equals("Revanth")) && (pass.equals("Revanth_123"))){
+                System.out.println("Hello Revanth, You are welcome ");
                 break;
             }else{
                 System.out.println("credentials does not match. Please try again.");
