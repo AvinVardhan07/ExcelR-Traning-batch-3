@@ -1,4 +1,3 @@
-package Core_Java;
 
 class Demo004{
     public static void main(String[] args) {
