@@ -9,5 +9,6 @@ class Demo019a{
         int num = sc.nextInt();
         int rounded = (((num+2)/5)*5);
         System.out.println("Rounded to the neared multiple of 5: "+rounded);
+        sc.close();
     }
 }
