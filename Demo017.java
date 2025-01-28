@@ -12,5 +12,6 @@ class Demo017{
         System.out.print("Enter a 2 digit number: ");
         int a = sc.nextInt();
         System.out.println("Sum of digits: "+obj.sum(a));
+        sc.close();
     }
 }
