@@ -6,6 +6,7 @@ class LinkedHashSetDemo{
     void linkedHashsetMethod(){
         LinkedHashSet <Integer>lhs = new LinkedHashSet<>();
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.println("Enter 5 integers: ");
         for(int i=0; i<5; i++){
             int x = sc.nextInt();
@@ -24,11 +25,7 @@ class LinkedHashSetDemo{
 
 		System.out.println("The sum is :" + sum);
 
-		Iterator it = lhs.iterator();
-		while(it.hasNext()) {
-			System.out.println(it.next());
-		}
-	}
+		 
 }
 public class Demo033 {
     public static void main(String[] args) {
