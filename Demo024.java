@@ -8,6 +8,7 @@ class Array{
     long phone[] = new long[5];
     void array1(){
         Scanner sc = new Scanner(System.in);
+        sc.close();
         for(int i=0;i<5;i++){
             System.out.println("Enter details of friend "+(i+1));
             System.out.print("Enter name: ");
