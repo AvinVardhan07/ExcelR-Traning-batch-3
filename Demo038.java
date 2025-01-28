@@ -22,4 +22,4 @@ public class Demo038 {
         
         scanner.close();
     }
-}
+};
