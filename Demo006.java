@@ -6,7 +6,7 @@ class Demo006{
     public static void main(String[] args) {
         boolean a = true;
         Scanner sc = new Scanner(System.in);
-        while(true){
+        while(a){
             System.out.print("Enter username: ");
             String id = sc.next();
             System.out.print("Enter password: ");
@@ -18,5 +18,6 @@ class Demo006{
                 System.out.println("credentials does not match. Please try again.");
             }
         }
+        sc.close();
     }
-}
+};
