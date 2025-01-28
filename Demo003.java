@@ -17,5 +17,6 @@ class Demo003{
             }else{
                 System.out.println(c+" is greater than "+a+" and "+b);
             }
+            sc.close();
     }
 }
