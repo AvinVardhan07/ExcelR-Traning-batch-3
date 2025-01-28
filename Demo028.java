@@ -17,6 +17,7 @@ public class Demo028{
     public static void main(String[] args) {
         System.out.print("Enter the position of the Fibonacci number: ");
         Scanner sc = new Scanner(System.in);
+        sc.close();
         int n = sc.nextInt(); 
         Fibonacci fib = new Fibonacci();
         System.out.print("Fibonacci numbers till position " +  n + " are: ");
