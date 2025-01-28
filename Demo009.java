@@ -14,7 +14,7 @@ public class Demo009 {
         bankaccno = sc.nextLong();
         System.out.print("Enter bank balance: ");
         balance = sc.nextDouble();
-        Demo009 obj = new Demo009();
+        sc.close();
     }
 
     void display(){
