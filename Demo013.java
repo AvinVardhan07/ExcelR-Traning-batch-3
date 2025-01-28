@@ -21,5 +21,6 @@ public class Demo013 {
         
 		
 		System.out.println("The triangle area is : " + ta.getTriangleArea(s1, s2, s3));
+		sc.close();
 	}
 }
