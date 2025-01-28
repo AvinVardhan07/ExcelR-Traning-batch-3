@@ -15,5 +15,6 @@ class Demo014{
         System.out.print("Enter a number: ");
         int a = sc.nextInt();
         obj.unary(a);
+        sc.close();
     }
 }
