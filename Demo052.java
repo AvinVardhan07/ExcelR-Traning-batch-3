@@ -21,7 +21,7 @@ public class Demo052 { // cheking if the given number of armstrong or not
         }
 
         if (sum == temp) {
-            System.out.println("armstrong");
+            System.out.println("armstrong number");
         } else {
             System.out.println("not");
         }
