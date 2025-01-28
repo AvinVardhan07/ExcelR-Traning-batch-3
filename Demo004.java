@@ -5,4 +5,4 @@ class Demo004{
             System.out.println(i);
         }
     }
-}
+};
