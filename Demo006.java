@@ -11,11 +11,11 @@ class Demo006{
             String id = sc.next();
             System.out.print("Enter password: ");
             String pass = sc.next();
-            if((id.equals("Revanth")) && (pass.equals("Revanth_123"))){
-                System.out.println("Hello Revanth, You are welcome ");
+            if((id.equals("Avin")) && (pass.equals("Revanth_123"))){
+                System.out.println("Hello Avin, You are welcome ");
                 break;
             }else{
-                System.out.println("credentials does not match. Please try again.");
+                System.out.println("Your credentials don't match");
             }
         }
         sc.close();
