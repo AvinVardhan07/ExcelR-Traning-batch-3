@@ -8,6 +8,7 @@ class Demo029{
     }
     void input(){
         Scanner sc = new Scanner(System.in);
+        sc.close();
         for(int i=0; i<10; i++){
             System.out.print("Enter the "+(i+1)+" person name: ");
             String name = sc.next();
