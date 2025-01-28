@@ -24,4 +24,4 @@ public class Demo051 {
 
         sc.close();
     }
-}
+};
