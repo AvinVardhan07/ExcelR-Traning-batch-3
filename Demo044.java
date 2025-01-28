@@ -20,4 +20,4 @@ public class Demo044 {
         }
         sc.close();
     }
-}
+};
