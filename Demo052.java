@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Demo052 { // cheking if the given number of armstrong or not
-                       // ARMSTRONG NUMBER : cube of each digit has to be equal to the cube of each
-                       // number
+                       // ARMSTRONG NUMBER
 
     public static void main(String[] args) {
         int sum = 0, Each_Digit;
