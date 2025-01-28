@@ -13,5 +13,6 @@ public class Demo016 {
         System.out.print("Enter a three digit number: ");
 		int n = sc.nextInt();	
 		System.out.println(obj.isPalindromeOf3Digits(n));
+		sc.close();
 	}
 }
