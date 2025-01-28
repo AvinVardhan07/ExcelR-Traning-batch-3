@@ -23,5 +23,6 @@ class Demo020{
         int n = sc.nextInt();
         FizzBizz obj = new FizzBizz();
         obj.FizzBizz1(n);
+        sc.close();
     }
 }
