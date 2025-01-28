@@ -5,6 +5,7 @@ class HashSetDemo2{
     void HashSetMethod(){
         HashSet<String> hashSet = new HashSet<>();
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.println("Enter 10 strings: ");
         for(int i=0; i<10; i++){
             String s = sc.next();
