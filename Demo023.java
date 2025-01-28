@@ -5,6 +5,7 @@ import java.util.*;
 public class Demo023 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.print("Enter a number: ");
         int number = sc.nextInt(); 
         Palindrome obj = new Palindrome();
