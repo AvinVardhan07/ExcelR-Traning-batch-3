@@ -12,4 +12,4 @@ class Demo005 {
         }
         sc.close();
     }
-}
+};
