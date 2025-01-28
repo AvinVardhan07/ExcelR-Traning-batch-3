@@ -46,5 +46,6 @@ class Demo021{
         System.out.println("Annual Deductions (HRA + PF): " + deductions);
         System.out.println("Taxable Income: " + taxableIncome);
         System.out.println("Annual Income Tax: " + tax);
+        sc.close();
     }
 }
