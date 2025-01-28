@@ -9,5 +9,6 @@ public class Demo007 {
         String age=sc.next();
         String num = sc.next();
         System.out.println("Hello "+name+", age = "+age+", phone number: "+num);
+        sc.close();
     }
 }
