@@ -29,4 +29,4 @@ public class Demo052 { // cheking if the given number of armstrong or not
         sc.close();
 
     }
-}
+};
