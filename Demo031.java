@@ -6,6 +6,7 @@ class HashSetDemo1 {
 	void HSetMethod() {
 		HashSet<Object> hashSet = new HashSet<>();
         Scanner sc = new Scanner(System.in);
+		sc.close();
         System.out.println("Enter an integer, a string and a double: ");
         int a = sc.nextInt();
         String b = sc.next();
