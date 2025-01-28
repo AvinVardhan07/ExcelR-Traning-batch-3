@@ -13,6 +13,7 @@ class reverseString {
 class Demo025 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.print("Enter the string: ");
         String str = sc.next();
         reverseString obj = new reverseString();
