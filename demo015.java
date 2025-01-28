@@ -19,5 +19,6 @@ class Demo015{
         int b = sc.nextInt();
 
         obj.swapNumber(a, b);
+        sc.close();
     }
 }
