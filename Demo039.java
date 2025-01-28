@@ -25,4 +25,4 @@ public class Demo039 {
         
         scanner.close();
     }
-}
+};
