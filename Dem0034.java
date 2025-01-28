@@ -21,4 +21,4 @@ public class Dem0034 {
        sc.close();
         
     }
-}
+};
