@@ -7,15 +7,15 @@ public class Demo056 {
 
         System.out.println("Enter the number: ");
         int CompleteNum = sc.nextInt();
-        int Sum_Sq_Each_digit = 0; // global vaiable
+        int Sum_cube_Each_digit = 0; // global vaiable
 
         while (CompleteNum > 0) {
             int eachDigit = CompleteNum % 10;
-            Sum_Sq_Each_digit += eachDigit * eachDigit * eachDigit;
+            Sum_cube_Each_digit += eachDigit * eachDigit * eachDigit;
             CompleteNum = CompleteNum / 10;
         }
 
-        System.out.println("The final output: " + Sum_Sq_Each_digit);
+        System.out.println("The final output: " + Sum_cube_Each_digit);
 
         sc.close();
     }

@@ -5,7 +5,7 @@ public class Demo057 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the required number machaa: ");
         int Complete_num = sc.nextInt();
-        int first_digit;
+      //  int first_digit;
         int last_digit = Complete_num % 10; // picking the last digit broo
 
         while (Complete_num >= 10) { // as we dont know how long the number wil be so, we are using the while loop
