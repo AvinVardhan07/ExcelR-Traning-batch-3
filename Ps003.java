@@ -98,5 +98,6 @@ public class PS003 {
         bowler.showStatistics();
         System.out.println();
         bowler.computeStrikeRate();
+        sc.close();
     }
 }

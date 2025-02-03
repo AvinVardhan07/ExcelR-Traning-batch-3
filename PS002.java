@@ -16,5 +16,6 @@ class PS002{
         System.out.print("Enter a number: ");
         int a = sc.nextInt();
         System.out.println("Output: "+  PS.multiple(a));
+        sc.close();
     }
 }
