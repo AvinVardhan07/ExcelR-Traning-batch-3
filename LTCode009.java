@@ -1,4 +1,4 @@
-class Solution {
+class LTCode009 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length;
         int mergedSize = m + n;
@@ -33,13 +33,13 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        LTCode009 obj = new LTCode009();
         
         int[] nums1 = {1, 3};
         int[] nums2 = {2};
         
-        double median = solution.findMedianSortedArrays(nums1, nums2);
+        double median = obj.findMedianSortedArrays(nums1, nums2);
         
-        System.out.println("Median: " + median);
+        System.out.println("final  combined median of both the arrays:  " + median);
     }
 }
