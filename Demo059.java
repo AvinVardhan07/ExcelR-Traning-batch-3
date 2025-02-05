@@ -15,7 +15,9 @@ public class Demo059 {
             return false;
         }
 
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i < n; i++) { // any ways it will be divisile by it self and this is the condition for the
+                                      // remianing numbers broo and if it is divisible bu any of the numbers the it
+                                      // would not be considered as the prime number broo
             if (i % n == 0) {
                 return false;
             }
